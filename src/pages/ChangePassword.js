@@ -42,6 +42,7 @@ function ChangePassword() {
             }
         } catch (error) {
             setShowValidation({ content: error });
+            return false;
         }
     };
     useEffect(() => {

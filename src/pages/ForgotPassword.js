@@ -28,6 +28,7 @@ function ForgotPassword() {
             }
         } catch (error) {
             setShowValidation({ content: error});
+            return false;
         }
     };
     useEffect(() => {

@@ -42,7 +42,8 @@ function Register() {
               setShowValidation({ content: response.data.message});
             }
         } catch (error) {
-            alert(error);
+            setShowValidation({ content: error});
+            return false
         }
     }
     useEffect(() => {
