@@ -1,0 +1,21 @@
+.login_width{
+    width: 500px;
+    background-color: #d6f5f5;
+    border-radius: 10px;
+}
+body{
+    background-color: #8fbdbd;
+}
+.validation-message{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #ffff;
+  }
+  .error_background{
+    background-color: rgba(201, 9, 31, 0.799);
+  }
+  .success_background{
+    background-color: rgba(27, 194, 74, 0.799);
+  }
