@@ -8,7 +8,7 @@ function Login() {
     let [showValidation, setShowValidation] = useState({ content: "", type: "" })
     const navigate = useNavigate();
     const handleClick = async () => {
-        if (!email) {
+        if (!email || email=="") {
           setShowValidation({ content: "Please enter email!"});
           return false;
         }
